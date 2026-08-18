@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouthCravings — Snack Your Mood</title>
+  <meta name="description" content="YouthCravings — dunia snack dan cemilan ringan untuk menemani setiap mood.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="blob blob-one"></div>
+  <div class="blob blob-two"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home"><span>Y</span>Youth<span>Cravings</span></a>
+    <nav>
+      <a href="#explore">Explore</a>
+      <a href="#favorites">Favorites</a>
+      <a href="#about">About</a>
+    </nav>
+    <button class="menu-btn" aria-label="Buka menu">☰</button>
+    <a class="nav-cta" href="#explore">Cari Cemilan <span>→</span></a>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span>✦</span> snack time, anytime</div>
+        <h1>Temukan<br><em>cemilan</em> favoritmu.</h1>
+        <p>Dari yang crispy sampai yang manis, YouthCravings siap nemenin setiap mood dan momen kamu.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#explore">Jelajahi Snack <span>↗</span></a>
+          <button class="play-btn" id="surpriseBtn"><span>✦</span> Surprise Me</button>
+        </div>
+        <div class="mini-stats">
+          <div><strong>100+</strong><small>Snack picks</small></div>
+          <div><strong>25+</strong><small>Flavors</small></div>
+          <div><strong>∞</strong><small>Good moods</small></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="circle-bg"></div>
+        <div class="snack-card card-top"><span>🍋</span><b>Fresh</b><small>& zesty</small></div>
+        <div class="snack-card card-bottom"><span>🍫</span><b>Sweet</b><small>& happy</small></div>
+        <div class="snack-orbit orbit-one"></div>
+        <div class="snack-orbit orbit-two"></div>
+        <div class="snack-bowl" aria-label="Ilustrasi mangkuk snack">
+          <div class="snack snack-a">🍿</div>
+          <div class="snack snack-b">🥨</div>
+          <div class="snack snack-c">🍪</div>
+          <div class="snack snack-d">🍟</div>
+          <div class="bowl">◡</div>
+        </div>
+        <div class="sticker">CRAVE<br>MORE ✦</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Kategori snack">
+      <span>CRISPY</span><i>✦</i><span>SWEET</span><i>✦</i><span>SALTY</span><i>✦</i><span>FRESH</span><i>✦</i><span>CRUNCHY</span><i>✦</i><span>HAPPY</span>
+    </section>
+
+    <section class="explore section" id="explore">
+      <div class="section-heading">
+        <div>
+          <span class="label">EXPLORE THE CRAVINGS</span>
+          <h2>Snack sesuai <em>mood</em> kamu.</h2>
+        </div>
+        <p>Pilih vibe-mu, lalu temukan inspirasi cemilan yang pas.</p>
+      </div>
+
+      <div class="category-grid">
+        <button class="category active" data-category="all"><span>🍿</span><b>All Cravings</b><small>Everything tasty</small></button>
+        <button class="category" data-category="sweet"><span>🍪</span><b>Sweet Tooth</b><small>Manis & cozy</small></button>
+        <button class="category" data-category="salty"><span>🍟</span><b>Salty Mood</b><small>Gurih & crunchy</small></button>
+        <button class="category" data-category="fresh"><span>🍓</span><b>Fresh Pick</b><small>Light & fresh</small></button>
+      </div>
+
+      <div class="snack-grid" id="snackGrid">
+        <article class="snack-item" data-type="sweet">
+          <div class="item-image pink">🍪</div><div class="item-info"><span>Sweet</span><h3>Cookie Cloud</h3><p>Soft, chewy & comforting.</p><button class="heart">♡</button></div>
+        </article>
+        <article class="snack-item" data-type="salty">
+          <div class="item-image blue">🍟</div><div class="item-info"><span>Salty</span><h3>Crunchy Fries</h3><p>Golden, crispy & fun.</p><button class="heart">♡</button></div>
+        </article>
+        <article class="snack-item" data-type="fresh">
+          <div class="item-image yellow">🍓</div><div class="item-info"><span>Fresh</span><h3>Berry Bites</h3><p>Juicy little mood boosters.</p><button class="heart">♡</button></div>
+        </article>
+        <article class="snack-item" data-type="sweet">
+          <div class="item-image cream">🍫</div><div class="item-info"><span>Sweet</span><h3>Choco Pop</h3><p>Chocolatey movie-night buddy.</p><button class="heart">♡</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-section" id="favorites">
+      <div class="quote-mark">“</div>
+      <h2>Life is too short<br>for <em>boring snacks.</em></h2>
+      <p>— YouthCravings rule #01</p>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-card">
+        <span class="label">WHY YOUTHCRAVINGS?</span>
+        <h2>Your snack corner,<br><em>but make it fun.</em></h2>
+        <p>YouthCravings adalah ruang kecil buat kamu yang percaya kalau cemilan bukan cuma makanan—tapi bagian dari mood, cerita, dan momen kecil yang bikin hari lebih seru.</p>
+        <a href="#explore" class="text-link">Let's find your craving <span>→</span></a>
+      </div>
+      <div class="about-note">
+        <span>✦</span>
+        <strong>Good snacks.<br>Good mood.</strong>
+        <small>Made for snack lovers.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo"><span>Y</span>Youth<span>Cravings</span></div>
+    <p>Snack your mood. Enjoy your moment. ✦</p>
+    <small>© 2026 YouthCravings</small>
+  </footer>
+
+  <div class="toast" id="toast">✨ Craving kamu hari ini: <b>Choco Pop!</b></div>
+  <script src="script.js"></script>
+</body>
+</html>
